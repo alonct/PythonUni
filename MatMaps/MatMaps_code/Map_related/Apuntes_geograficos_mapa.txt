@@ -1,0 +1,6 @@
+{
+    "Paises": 3,
+    "Ciudades": 15,
+    "Numero_max_pts_interes": 7,
+    "Numero_min_ptos_interes": 2
+}

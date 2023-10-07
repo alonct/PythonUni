@@ -1,0 +1,15 @@
+Monumento
+Palacio
+Mirador
+Museo
+Castillo
+Bahia
+Exposicion
+Galeria
+Torre
+Bosque
+Iglesia
+Catedral
+Estatua
+Faro
+Puerto

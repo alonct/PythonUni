@@ -1,0 +1,7 @@
+Bar
+Cafeteria
+Restaurante
+Garito
+Pub
+Wok
+Terraza

@@ -1,0 +1,18 @@
+    def is_connected(self, vertex1: str, vertex2: str) -> bool:
+        if vertex1 == vertex2:
+            return True
+        else:
+            abierto = list()
+            closed = list()
+            abierto.append(vertex1)
+            running = True
+            while running:
+                if len(abierto) == 0:
+                    return False
+                closed.append(abierto[0])
+                abierto.pop(0)
+                if closed[len(closed) - 1] == vertex2:
+                    return True
+                for element in self.get_adjacent_vertex(closed[len(closed) - 1]):
+                    if (element not in closed) and (element not in abierto):
+                        abierto.append(element)
